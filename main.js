@@ -16,8 +16,8 @@ const client = require('twilio')(accountSid, authToken);
 
 
 
-const sequelize = new Sequelize('mp2', 'root', '', {
-  host: 'localhost',
+const sequelize = new Sequelize('palad''wd32p','7YWFvP8kFyHhG3eF', {
+  host: '20.211.37.87',
   dialect: 'mysql'
 });
 
