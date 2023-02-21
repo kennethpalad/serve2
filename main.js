@@ -1,6 +1,6 @@
 // here we get codes from 3rd party plugins/library
 const express = require('express') // server code or to run our own server on localhost specified by port
-const cors = require('cors') // this allows us to access our server on a different domain
+const cors = require('no-cors') // this allows us to access our server on a different domain
 const bodyParser = require("body-parser"); // this allows us to ready request data JSON object
 const app = express() // initialize express server into a variable
 const fs = require('fs') // use file system of windows or other OS to access local files
